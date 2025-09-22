@@ -1,0 +1,8 @@
+[build]
+  command = "echo 'Mintlify docs ready'"
+  publish = "."
+
+[[redirects]]
+  from = "/*"
+  to = "/welcome.mdx"
+  status = 200
